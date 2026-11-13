@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/overnzbk/public_html/
     - /bin/mkdir -p "$DEPLOYPATH"
     - /bin/cp -f index.html "$DEPLOYPATH/index.html"
+    - /bin/chmod 644 "$DEPLOYPATH/index.html"
